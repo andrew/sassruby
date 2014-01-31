@@ -1,6 +1,6 @@
 #!/usr/bin/env rake
-#require "bundler/gem_tasks"
-#Bundler.setup
+require "bundler/gem_tasks"
+Bundler.setup
 load 'sassc.gemspec'
 require 'rake/extensiontask'
 
